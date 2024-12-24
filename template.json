@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Jostin C",
+  "classifications": [ "API", "Layered Architecture", "CQRS", "Clean Code", "ASP.NET Core" ],
+  "name": "Layered Architecture API Template",
+  "identity": "LayeredArchitecture.Template",
+  "shortName": "layered-api",
+  "sourceName": "SolutionName",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "projectName": {
+      "type": "parameter",
+      "description": "The name of the project",
+      "replaces": "SolutionName"
+    }
+  },
+  "description": "A modular and scalable API template built with ASP.NET Core, following Layered Architecture, CQRS, and Clean Code principles."
+}
