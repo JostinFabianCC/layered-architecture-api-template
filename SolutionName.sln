@@ -3,9 +3,52 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2048256-1606-4E35-9C9F-1E2B9BC25A64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A29E1762-F955-498F-B5DF-16361D6B3142}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{59790F2B-4DC6-4583-9052-DE1FC722618D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{29B27D86-5C0F-493E-9B41-2F73D2926DF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{16ADD6CF-09E9-4C4D-9764-96212B3D8329}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A0C4654E-0C94-411F-8C2F-849087A4439B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FD027DCD-947C-4903-A167-45AAB9649FE4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".template.config", ".template.config", "{82D90F50-191B-4035-BA47-FE768617393D}"
+	ProjectSection(SolutionItems) = preProject
+		template.json = template.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionName.API", "SolutionName.API\SolutionName.API.csproj", "{60DB421E-3EE8-47B2-8705-8039D53F8150}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60DB421E-3EE8-47B2-8705-8039D53F8150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DB421E-3EE8-47B2-8705-8039D53F8150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DB421E-3EE8-47B2-8705-8039D53F8150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DB421E-3EE8-47B2-8705-8039D53F8150}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59790F2B-4DC6-4583-9052-DE1FC722618D} = {F2048256-1606-4E35-9C9F-1E2B9BC25A64}
+		{29B27D86-5C0F-493E-9B41-2F73D2926DF3} = {F2048256-1606-4E35-9C9F-1E2B9BC25A64}
+		{16ADD6CF-09E9-4C4D-9764-96212B3D8329} = {F2048256-1606-4E35-9C9F-1E2B9BC25A64}
+		{A0C4654E-0C94-411F-8C2F-849087A4439B} = {F2048256-1606-4E35-9C9F-1E2B9BC25A64}
+		{60DB421E-3EE8-47B2-8705-8039D53F8150} = {59790F2B-4DC6-4583-9052-DE1FC722618D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63C8510F-FA25-4599-9D28-9BDE73517E89}
