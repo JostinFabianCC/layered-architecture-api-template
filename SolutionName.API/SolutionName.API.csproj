@@ -17,4 +17,10 @@
     <ProjectReference Include="..\SolutionName.Application\SolutionName.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Middleware\" />
+    <Folder Include="Filters\" />
+    <Folder Include="Config\" />
+  </ItemGroup>
+
 </Project>
